@@ -12,7 +12,10 @@ Basé sur la vagrant box __Scotchbox__ : _https://atlas.hashicorp.com/scotch/box
 * En console, se placer dans le folder _klindev_ fraîchement créé (sous Windows, mieux vaut utiliser la console __Cmder__)
 * _vagrant init_
 * _vagrant up_ (si message d'erreur, il faut peut-être autoriser la virtualisation dans le BIOS : "ITX-machinchose")
+
+#### Utilisation :
 * Page web accessible à l'adresse _http://scotchbox.local/_
+* PHPmyAdmin à l'adresse _http://scotchbox.local/phpmyadmin_
 * Coder dans le dossier _public_, son contenu sera répercuté dans le folder _/var/www/public/_ de la VM
 * Pour accéder à la VM, exécuter _vagrant ssh_
 
@@ -25,3 +28,4 @@ Basé sur la vagrant box __Scotchbox__ : _https://atlas.hashicorp.com/scotch/box
 * _vagrant destroy_ : détruire complètement la VM (elle sera reconstruite au prochain _vagrant up_
 
 Accès par défaut : _vagrant_, _vagrant_
+
