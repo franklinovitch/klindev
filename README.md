@@ -12,7 +12,7 @@ Basé sur la vagrant box __Scotchbox__ : _https://atlas.hashicorp.com/scotch/box
 * Installer le plugin __Hostmanager__ : _vagrant plugin install vagrant-hostmanager_
 * _vagrant up_ 
 
-Si vous rencontrez un message d'erreur, il faut peut-être autoriser la virtualisation dans le BIOS (dans la configuration de la carte mère : "VTX-machinchose" ou "Virtual machine security")
+Si vous rencontrez un message d'erreur, il faut peut-être autoriser la virtualisation dans le BIOS (dans la configuration de la carte mère cherchez le paramètre _VT-x_ ou _Virtual machine security_)
 
 #### Utilisation :
 * Page web accessible à l'adresse _http://scotchbox.local/_
