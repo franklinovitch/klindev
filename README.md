@@ -10,7 +10,7 @@ Basé sur la vagrant box __Scotchbox__ : _https://atlas.hashicorp.com/scotch/box
 * En console, exécuter _git clone https://github.com/quentinbarb/klindev.git_ pour obtenir un folder _klindev_ contenant l'environnement (sous Windows, mieux vaut utiliser la console __Cmder__)
 * Se placer dans le répertoire _klindev_ fraîchement créé
 * Installer le plugin __Hostmanager__ : _vagrant plugin install vagrant-hostmanager_
-* _vagrant up_ (si message d'erreur, il faut peut-être autoriser la virtualisation dans le BIOS : "ITX-machinchose")
+* _vagrant up_ (si message d'erreur, il faut peut-être autoriser la virtualisation dans le BIOS : "VTX-machinchose")
 
 #### Utilisation :
 * Page web accessible à l'adresse _http://scotchbox.local/_
