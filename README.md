@@ -5,12 +5,11 @@ Mon environnement de dev __Vagrant__
 Basé sur la vagrant box __Scotchbox__ : _https://atlas.hashicorp.com/scotch/boxes/box_
 
 #### Installation :
-* Installer __Virtualbox__
+* Installer __Virtualbox__ ainsi que son _Extension Pack_
 * Installer __Vagrant__
+* En console, exécuter _git clone https://github.com/quentinbarb/klindev.git_ pour obtenir un folder _klindev_ contenant l'environnement (sous Windows, mieux vaut utiliser la console __Cmder__)
+* Se placer dans le répertoire _klindev_ fraîchement créé
 * Installer le plugin __Hostmanager__ : _vagrant plugin install vagrant-hostmanager_
-* Exécuter _git clone https://github.com/quentinbarb/klindev.git_ pour obtenir un folder _klindev_ contenant l'environnement
-* En console, se placer dans le folder _klindev_ fraîchement créé (sous Windows, mieux vaut utiliser la console __Cmder__)
-* _vagrant init_
 * _vagrant up_ (si message d'erreur, il faut peut-être autoriser la virtualisation dans le BIOS : "ITX-machinchose")
 * Page web accessible à l'adresse _http://scotchbox.local/_
 * Coder dans le dossier _public_, son contenu sera répercuté dans le folder _/var/www/public/_ de la VM
