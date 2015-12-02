@@ -12,7 +12,7 @@ Basé sur la vagrant box __Scotchbox__ : _https://atlas.hashicorp.com/scotch/box
 * Installer le plugin __Hostmanager__ : _vagrant plugin install vagrant-hostmanager_
 * _vagrant up_ 
 
-Si vous rencontrez un message d'erreur, il faut peut-être autoriser la virtualisation dans le BIOS (dans la configuration de la carte mère cherchez le paramètre _VT-x_ ou _Virtual machine security_)
+Si vous rencontrez un message d'erreur, il faut peut-être autoriser la virtualisation dans le BIOS (dans la configuration de la carte mère, activez le paramètre _VT-x_ ou _Virtual machine security_)
 
 #### Utilisation :
 * Page web accessible à l'adresse _http://scotchbox.local/_
@@ -26,7 +26,7 @@ Si vous rencontrez un message d'erreur, il faut peut-être autoriser la virtuali
 * _vagrant reload_ : redémarrer la VM
 * _vagrant suspend_ : suspendre l'exécution (RAM de la VM stockée sur le DD)
 * _vagrant halt_ : arrêter la VM
-* _vagrant destroy_ : détruire complètement la VM (elle sera reconstruite au prochain _vagrant up_
+* _vagrant destroy_ : détruire complètement la VM (elle sera reconstruite au prochain _vagrant up_)
 
 Accès par défaut : _vagrant_, _vagrant_
 
