@@ -20,6 +20,13 @@ Si vous rencontrez un message d'erreur, il faut peut-être autoriser la virtuali
 * Coder dans le dossier _public_, son contenu sera répercuté dans le folder _/var/www/public/_ de la VM
 * Pour accéder à la VM, exécuter _vagrant ssh_
 
+#### Paramétrage client SGBD (par exemple __HeidiSQL__) :
+* Nom ou IP de l'hôte : _127.0.0.1_
+* User, pass : _root_, _root_
+* Port : _3306_
+* Hôte et port SSH : _127.0.0.1:2222_
+* User, pass : _vagrant_, _vagrant_
+
 #### Cheat sheet :
 * _vagrant up_ : lancer la VM
 * _vagrant ssh_ : connexion SSH à la VM
