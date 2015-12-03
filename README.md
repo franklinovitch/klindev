@@ -16,7 +16,6 @@ Si vous rencontrez un message d'erreur, il faut peut-être autoriser la virtuali
 
 #### Utilisation :
 * Page web accessible à l'adresse _http://scotchbox.local/_
-* PHPmyAdmin à l'adresse _http://scotchbox.local/phpmyadmin_
 * Coder dans le dossier _public_, son contenu sera répercuté dans le folder _/var/www/public/_ de la VM
 * Pour accéder à la VM, exécuter _vagrant ssh_
 
@@ -27,7 +26,6 @@ Ou, si vous préférez utiliser un client SGBD, (par exemple __HeidiSQL__), conf
 * Nom ou IP de l'hôte : _127.0.0.1_
 * User _root_, Pass _root_
 * Port : _3306_
-
 * Hôte et port SSH : _127.0.0.1:2222_
 * User _vagrant_, Pass _vagrant_
 * Port local : _3307_
