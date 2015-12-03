@@ -22,7 +22,7 @@ Si vous rencontrez un message d'erreur, il faut peut-être autoriser la virtuali
 #### Accès database :
 PhpMyAdmin est accessible à l'adresse _http://scotchbox.local/phpmyadmin_ (user _root_, pass _root_)
 
-Ou, si vous préférez utiliser un client SGBD, (par exemple __HeidiSQL__), configurez le comme suit :
+Ou, si vous préférez utiliser un client SGBD (par exemple __HeidiSQL__), configurez le comme suit :
 * Nom ou IP de l'hôte : _127.0.0.1_
 * User _root_, Pass _root_
 * Port : _3306_
